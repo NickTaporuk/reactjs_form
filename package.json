@@ -1,0 +1,26 @@
+{
+  "name": "reactjs_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickTaporuk/reactjs_form.git"
+  },
+  "author": "Nickolay Kuropatkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickTaporuk/reactjs_form/issues"
+  },
+  "homepage": "https://github.com/NickTaporuk/reactjs_form#readme",
+  "devDependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "dependencies": {
+    "react-router": "^2.4.0"
+  }
+}

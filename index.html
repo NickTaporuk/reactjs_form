@@ -5,33 +5,8 @@
     <title>Vidflix</title>
 </head>
 <body>
-<div id="app"></div>
-<script src="node_modules/react/dist/react.js"></script>
-<script src="node_modules/react-dom/dist/react-dom.js"></script>
-<script>
-    var div = React.DOM.div;
-    var h1 = React.DOM.h1;
-    h1({ style: {color: props.color} }, props.title);
+<div id="content"></div>
+<script data-main="js/app.js" src="node_modules/requirejs/require.js"></script>
 
-    var MyTitle = function (props) {
-        return (
-                div(null,
-                        h1(null, props.title)
-                )
-        )
-    };
-
-    var MyTitleFact = React.createFactory(MyTitle);
-
-    var MyFirstComponent = (
-            div(null,
-                    MyTitleFact({title: 'Props are great!', color: 'rebeccapurple'}),
-                    MyTitleFact({title: 'Use props everywhere!', color: 'mediumaquamarine'}),
-                    MyTitleFact({title: 'Props are the best!', color: 'peru'})
-            )
-    );
-
-    ReactDOM.render(MyFirstComponent, document.getElementById('app'))
-</script>
 </body>
 </html>

@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/NickTaporuk/reactjs_form#readme",
   "devDependencies": {
+    "jquery": "^2.2.3",
     "react": "^15.0.2",
-    "react-dom": "^15.0.2"
+    "react-dom": "^15.0.2",
+    "requirejs": "^2.2.0"
   },
   "dependencies": {
     "react-router": "^2.4.0"
